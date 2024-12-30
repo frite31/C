@@ -1,0 +1,164 @@
+/* Général */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #f1f1f1;
+    color: #333;
+    line-height: 1.6;
+    margin: 0 20px; /* Marges à gauche et à droite */
+}
+
+/* Bannière du haut */
+.banner-top {
+    background: linear-gradient(135deg, #4e4e4e, #777);
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 22px;
+    font-weight: bold;
+    margin: 0 20px; /* Marges à gauche et à droite */
+}
+
+/* En-tête */
+header {
+    text-align: center;
+    margin-bottom: 40px;
+    margin: 0 20px; /* Marges à gauche et à droite */
+}
+
+/* Image dans le header */
+header img {
+    max-width: 150px;
+    border-radius: 50%;
+    border: 4px solid #fff;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Bannière principale */
+.banner {
+    background: linear-gradient(135deg, #6c757d, #495057);
+    color: white;
+    padding: 60px 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    margin: 0 20px; /* Marges à gauche et à droite */
+}
+
+.banner h1 {
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+.banner p {
+    font-size: 22px;
+    font-weight: bold;
+    opacity: 0.8;
+}
+
+/* Contenu principal */
+.content {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+    margin: 30px 20px; /* Marges à gauche et à droite */
+}
+
+/* Titres avec encadrement et texte en gras */
+.content h1, .content h2, .content h3, .content h4 {
+    font-size: 28px; /* Taille du texte */
+    font-weight: bold; /* Texte en gras */
+    margin-bottom: 20px;
+    color: #333;
+    padding: 10px;
+    border: 2px solid #333; /* Bordure noire autour du titre */
+    border-radius: 8px; /* Bordure arrondie */
+    text-align: left;
+    background-color: #f1f1f1; /* Fond clair pour faire ressortir la bordure */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre subtile pour ajouter du raffinement */
+}
+
+/* Alignement et style des listes à gauche */
+.left-align {
+    list-style-type: disc; /* Utilise des puces (disques) */
+    padding-left: 20px;    /* Ajoute un espacement pour les puces */
+    margin-bottom: 20px;   /* Espacement entre les sections */
+}
+
+.left-align li {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #555;
+}
+
+.left-align li a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+.left-align li a:hover {
+    text-decoration: underline;
+}
+
+/* Liste des compétences */
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.skill {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    text-align: center;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.skill:hover {
+    background-color: #e9ecef;
+    transform: translateY(-5px);
+}
+
+.skill h3 {
+    font-size: 22px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Bannière du bas */
+.banner-bottom {
+    background: linear-gradient(135deg, #495057, #4e4e4e);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 16px;
+    margin-top: 40px;
+    box-shadow: 0 -4px 15px rgba(0, 0, 0, 0.1);
+    margin: 0 20px; /* Marges à gauche et à droite */
+}
+
+.banner-bottom a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.banner-bottom a:hover {
+    text-decoration: underline;
+}
+
+/* Effet de survol des éléments dans les listes */
+.content ul li:hover {
+    color: #4CAF50;
+    cursor: pointer;
+}
